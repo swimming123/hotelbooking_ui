@@ -130,6 +130,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
+   
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -3804,7 +3805,7 @@ textarea.form-control-lg {
   padding-bottom: 0.5rem;
   color: var(--bs-navbar-color);
 }
-.navbar-text a,
+.navbar-text a:color{color:white};
 .navbar-text a:hover,
 .navbar-text a:focus {
   color: var(--bs-navbar-active-color);
@@ -10844,7 +10845,7 @@ header.masthead {
   background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-bottom: 0rem;
 }
 header.masthead:before {
   content: "";
@@ -10935,4 +10936,7 @@ footer.footer {
 	padding:10px;
 	letter-spacing:3px
 }
-
+.circleimage a{
+	text-align:center;
+	
+}
