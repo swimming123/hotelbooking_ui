@@ -22,9 +22,9 @@ body{
 .container{
     width: 100vw;
     height: 70vh;
-    display: grid;
+    display: inline-flex;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap :7rem;
+    grid-gap :7rem; 
     padding: 0 2rem;
     
 }
@@ -36,19 +36,16 @@ body{
 }
 
 .login-content{
-  display: flex;
+  display: inline-block;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
+  margin: 0 auto;
   
 }
 
 .img img{
   width: 500px;
-}
-
-form{
-  width: 360px;
 }
 
 .login-content img{
@@ -333,17 +330,29 @@ footer{
 	 margin-left:1050px;
 	
 }
-.map{
-	margin-bottom:100px;
-	width: 100px;
-	margin-left:950px;
-	
-
-}
 form{
 	margin-bottom:500px;
-	float:left;
+	float:inherit; 
 	z-index:3;
-	bottom:100px;
 	position:relative;
+}
+.parent{
+    width: 90%;
+    margin: 10px auto;
+}
+.hotelInfo{
+	float: left;
+    width:30%;
+    box-sizing: border-box;
+}
+.userInfo{
+	 float: left;
+    margin-left: 5%;
+    width:30%;
+    box-sizing: border-box;
+}
+.payInfo{
+	 float: right;
+    width:30%;
+    box-sizing: border-box;
 }
