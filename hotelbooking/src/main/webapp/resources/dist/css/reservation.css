@@ -325,10 +325,21 @@ a {
         display: flex;
     }
 }
-footer{
-	 margin-top:100px;
-	 margin-left:1050px;
-	
+.wrap{
+	margin:0 auto;
+	text-align:center;
+}
+.box{
+	display:inline-block;
+	vertical-align:middle;
+}
+.box.in{
+	width:50px;
+	height:30px;
+	background-color:#FFF;
+}
+.write{
+	margin-top:500px;
 }
 form{
 	margin-bottom:500px;

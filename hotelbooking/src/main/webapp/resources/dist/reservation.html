@@ -11,8 +11,19 @@
 <script src="js/reservation.jsp"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1"
 	charset="utf-8">
+<script>
+window.onfocus=function(){
+	
+}
+window.onload=function(){
+	window.focus();
+	window.moveTo(0,0);
+	window.resizeTo(500,400);
+	window.scrollTo(0,250);
+}
+</script>
 </head>
-<body style="background-image: url('img/resimg.png');">
+<body onresize="parent.resizeTo(500,400)" onload="parent.resizeTo(500,400)">
 	<div>
 		<nav class="navbar">
 			<div class="navbar__logo">
@@ -191,13 +202,22 @@
 		</div>
 	</div>
 </body>
+<div class="wrap">
+<div class="box">
+<div class="in">
 <footer>
+	<div class="write">
 	<p>HotelsCombine</p>
 	<p>
 		<input type="text" name="homepage" id="homepage"
 			onclick="location.href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox'"
 			value=dhtoskq@gmail.com>
 	</p>
+	
 	<p>㈜ 2024 by ICT.com. proudly created with Wix.com</p>
+	</div>
 </footer>
+</div>
+</div>
+</div>
 </html>

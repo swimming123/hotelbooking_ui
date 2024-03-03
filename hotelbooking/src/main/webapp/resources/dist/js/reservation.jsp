@@ -13,6 +13,7 @@ function remcl(){
   if(this.value == ""){
     parent.classList.remove("focus");
   }
+
 }
 
 
