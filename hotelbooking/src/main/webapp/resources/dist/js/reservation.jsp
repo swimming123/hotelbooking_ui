@@ -23,7 +23,7 @@ inputs.forEach(input => {
 });
 
 //Source :- https://github.com/sefyudem/Responsive-Login-Form/blob/master/img/avatar.svg
-const toggleBtn = document.querySelector('.navbar__toogleBtn');
+
 const menu = document.querySelector('.navbar__menu');
 const icons = document.querySelector('.navbar__icons');
 
